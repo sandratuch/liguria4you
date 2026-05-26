@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Liguria4you</title>
+  <meta name="description" content="Professionelle Betreuung Ihrer Immobilie in Ligurien." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="nav">
+      <div class="nav-left">
+        <a href="#home" data-i18n="navWelcome">Willkommen</a>
+        <a href="#service" data-i18n="navService">Service</a>
+      </div>
+      <a class="brand" href="#home">Liguria4you</a>
+      <div class="nav-right">
+        <a href="#about" data-i18n="navAbout">Über uns</a>
+        <a href="#contact" data-i18n="navContact">Kontakt</a>
+        <div class="language-switch">
+          <button type="button" data-lang="de" class="active">DE</button><span>/</span>
+          <button type="button" data-lang="en">EN</button><span>/</span>
+          <button type="button" data-lang="it">IT</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <h1 data-i18n="heroTitle">Ihre Immobilie in Ligurien verdient zuverlässige Betreuung.</h1>
+      <p data-i18n="heroText">Liguria4you kümmert sich professionell und persönlich um Ihr Feriendomizil in der Region Imperia. Ob Verwaltung, Hausbetreuung, Begleitung beim Immobilienkauf oder Übersetzungen. Wir sorgen dafür, dass Ihr Zuhause sicher, gepflegt und jederzeit einsatzbereit ist. Mehr Sicherheit. Weniger Aufwand. Volle Transparenz.</p>
+      <a class="button ghost" href="#contact" data-i18n="heroButton">Kontakt</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="services" id="service">
+      <article><span>01</span><div><h2 data-i18n="service1Title">Administrative Verwaltung</h2><p data-i18n="service1Text">Wir übernehmen die Zahlung von Nebenkosten und Rechnungen sowie die Kommunikation mit Versorgern und Behörden. Dabei kümmern wir uns auch um die IMU-Berechnung und behalten wichtige Fristen zuverlässig im Blick.</p></div></article>
+      <article><span>02</span><div><h2 data-i18n="service2Title">Hausbetreuung</h2><p data-i18n="service2Text">Wir führen regelmäßige Objektkontrollen durch, lüften die Räume und überprüfen Feuchtigkeit sowie technische Anlagen, wobei Sie als Eigentümer durch Fotoberichte stets informiert bleiben.</p></div></article>
+      <article><span>03</span><div><h2 data-i18n="service3Title">Übersetzungen & Kommunikation</h2><p data-i18n="service3Text">Wir unterstützen Sie bei Übersetzungen und der gesamten Kommunikation in Deutsch und Englisch, sei es bei Dokumenten, Verträgen oder E-Mails, sowie im Austausch mit Gästen und Behörden und bei der Begleitung von Kaufverträgen.</p></div></article>
+      <article><span>04</span><div><h2 data-i18n="service4Title">Zusatzservices</h2><p data-i18n="service4Text">Wir bieten umfassende Zusatzservices wie Reinigung und Instandhaltung, die Koordination von Handwerkern sowie die Öffnung und Schließung des Hauses an und organisieren auf Wunsch Willkommenspakete sowie den Einkauf vor Ihrer Anreise.</p></div></article>
+    </section>
+
+    <section class="image-band"><img src="assets/about.jpg" alt="Liguria4you portrait placeholder" /></section>
+
+    <section class="about" id="about">
+      <p class="intro" data-i18n="aboutIntro">Liguria4You ist eine inhabergeführte Agentur mit Sitz in Isolalunga (Dolcedo). Gegründet von Anne Helene Kruschwitz, die seit fast 20 Jahren in Ligurien lebt.</p>
+      <p data-i18n="aboutText1">Dank ihrer Mehrsprachigkeit und ihres tiefen Verständnisses für die Bedürfnisse ausländischer Immobilieneigentümer fungiert sie als verlässliche Schnittstelle zwischen Eigentümern, Behörden und lokalen Dienstleistern. Die Stärke von Liguria4you ist die Kombination aus lokaler Kompetenz, internationaler Erfahrung und persönlichem Service.</p>
+      <p data-i18n="aboutText2">Besonderer Wert wird auf Vertrauen, Sorgfalt, Transparenz und eine individuelle Betreuung gelegt. Durch eine ausgeprägte organisatorische Kompetenz und ein gewachsenes lokales Netzwerk aus Handwerkern, Verwaltungen und Gemeinden bietet Liguria4You seinen Kunden ein hohes Maß an Sicherheit, Entlastung und Zuverlässigkeit.</p>
+      <p class="claim" data-i18n="aboutClaim">Liguria4you steht für direkte Kommunikation, kurze Reaktionszeiten und maßgeschneiderte Lösungen.</p>
+      <address>
+        VIA GARIBALDI 50<br>18020 DOLCEDO (IM) – ITALIEN<br>
+        <a href="mailto:info@liguria4you.it">INFO@LIGURIA4YOU.IT</a><br>
+        <a href="tel:+393297827215">+39 329 78 27 215</a>
+      </address>
+    </section>
+
+    <section class="contact" id="contact">
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <div class="field"><label data-i18n="formFirst">Vorname</label><input name="first_name" type="text" required></div>
+        <div class="field"><label data-i18n="formLast">Nachname</label><input name="last_name" type="text" required></div>
+        <div class="field"><label data-i18n="formPhone">Telefonnummer</label><input name="phone" type="tel"></div>
+        <div class="field"><label data-i18n="formEmail">E-Mail-Adresse</label><input name="email" type="email" required></div>
+        <div class="field full"><label data-i18n="formSubject">Betreff / Nachricht</label><textarea name="message" required></textarea></div>
+        <button class="button submit" type="submit" data-i18n="formSubmit">Abschicken</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div><a href="#" data-i18n="footerImprint">Imprint</a><a href="#" data-i18n="footerPrivacy">Privacy</a></div>
+    <p>All rights reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
