@@ -65,11 +65,11 @@ a {
 }
 
 .brand {
-  font-family: "Crosela", "EB Garamond", serif;
-  text-transform: none;
-  letter-spacing: 0;
+  font-family: "Crosela";
   font-size: 42px;
   font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 .language-switch {
