@@ -257,11 +257,18 @@ textarea {
 
 .submit {
   grid-column: 1 / -1;
-  border: 0;
-  background: #33322f;
-  color: #e8e6df;
-  padding: 18px 20px;
+  border: 1px solid #7c7973;
+  background: transparent;
+  color: #66635d;
+  padding: 18px 42px;
   cursor: pointer;
+  width: fit-content;
+  transition: all 0.3s ease;
+}
+
+.submit:hover {
+  background: #7c7973;
+  color: #f4f1eb;
 }
 
 footer {
