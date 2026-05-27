@@ -364,24 +364,20 @@ footer p {
   }
 }
 .testimonials {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 120px 30px;
-  text-align: center;
-}
-.testimonials {
   background: #f7f5f1;
   padding: 180px 8vw;
   margin-top: 140px;
   margin-bottom: 140px;
+  text-align: center;
 }
 
-.testimonial p {
-  font-size: 30px;
-  line-height: 1.4;
-  color: #7a7a74;
-  font-style: italic;
-  margin-bottom: 24px;
+.testimonial {
+  max-width: 900px;
+  margin: 0 auto 120px;
+}
+
+.testimonial:last-child {
+  margin-bottom: 0;
 }
 
 .testimonial p {
@@ -393,6 +389,14 @@ footer p {
   max-width: 760px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.testimonial span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #9a9690;
 }
 .contact-intro {
   max-width: 760px;
