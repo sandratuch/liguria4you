@@ -143,13 +143,14 @@ h1 {
   align-items: start;
 }
 .services span {
-  font-family: Arial, sans-serif;
-  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
   font-weight: 300;
   line-height: 1;
-  color: #9b9892;
   letter-spacing: -0.02em;
+  color: #9a9791;
   display: block;
+  padding-top: 2px;
 }
 
 .services h2 {
