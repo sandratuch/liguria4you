@@ -142,15 +142,14 @@ h1 {
   gap: 24px;
   align-items: start;
 }
-
 .services span {
-  font-family: "Manrope", sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 30px;
-  line-height: 1;
   font-weight: 300;
+  line-height: 1;
+  color: #9b9892;
   letter-spacing: -0.02em;
-  color: #9a9791;
-  padding-top: 2px;
+  display: block;
 }
 
 .services h2 {
