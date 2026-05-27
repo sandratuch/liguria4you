@@ -144,11 +144,12 @@ h1 {
 }
 
 .services span {
-  font-family: "EB Garamond", serif;
-  font-size: 34px;
+  font-family: "Manrope", sans-serif;
+  font-size: 30px;
   line-height: 1;
-  font-weight: 400;
-  color: #8c8a84;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  color: #9a9791;
   padding-top: 2px;
 }
 
