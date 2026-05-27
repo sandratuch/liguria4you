@@ -236,15 +236,14 @@ label {
 input,
 textarea {
   width: 100%;
-  border: 0;
-  border-bottom: 1px solid #8e8e89;
+  border: none;
+  border-bottom: 1px solid #9d9a93;
   background: transparent;
-  padding: 8px 0;
-  font: 16px Manrope, sans-serif;
-  color: #595955;
+  padding: 14px 0;
+  font: 17px "EB Garamond", serif;
+  color: #5f5d58;
   outline: none;
 }
-
 textarea {
   height: 170px;
   border: 1px solid #8e8e89;
