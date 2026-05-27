@@ -226,14 +226,13 @@ form {
 
 label {
   display: block;
-  font-family: Manrope, sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 0.13em;
-  font-size: 9px;
-  color: #999994;
-  margin-bottom: 8px;
+  letter-spacing: 0.16em;
+  font-size: 10px;
+  color: #9c9992;
+  margin-bottom: 14px;
 }
-
 input,
 textarea {
   width: 100%;
