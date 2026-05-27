@@ -369,9 +369,11 @@ footer p {
   padding: 120px 30px;
   text-align: center;
 }
-
-.testimonial {
-  margin-bottom: 90px;
+.testimonials {
+  background: #f7f5f1;
+  padding: 180px 8vw;
+  margin-top: 140px;
+  margin-bottom: 140px;
 }
 
 .testimonial p {
