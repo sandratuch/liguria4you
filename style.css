@@ -130,15 +130,11 @@ h1 {
   color: #5f5f5a;
   text-shadow: none;
 }
-
 .services {
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 110px 24px 96px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 150px;
-  row-gap: 72px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 140px 120px;
+  padding: 180px 10vw;
 }
 
 .services article {
