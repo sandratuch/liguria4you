@@ -136,11 +136,11 @@ h1 {
   gap: 140px 120px;
   padding: 180px 10vw;
 }
-
 .services article {
   display: grid;
-  grid-template-columns: 44px 1fr;
-  gap: 22px;
+  grid-template-columns: 58px 1fr;
+  gap: 24px;
+  align-items: start;
 }
 
 .services span {
