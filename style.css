@@ -245,10 +245,10 @@ textarea {
   outline: none;
 }
 textarea {
-  height: 170px;
-  border: 1px solid #8e8e89;
-  padding: 14px;
+  min-height: 180px;
   resize: vertical;
+  border: none;
+  border-bottom: 1px solid #9d9a93;
 }
 
 .full {
