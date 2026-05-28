@@ -210,8 +210,9 @@ address {
 }
 
 .contact {
-  padding: 180px 8vw 160px;
-  background: #ebe8e1;
+  padding: 120px 8vw 160px;
+  background: #e8e4dd;
+}
 }
 form {
   max-width: 920px;
