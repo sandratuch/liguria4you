@@ -28,7 +28,7 @@ a {
   text-decoration: none;
 }
 .hero {
-  min-height: 100vh;
+  min-height: 760px;
   margin-top: 0;
   background:
     linear-gradient(rgba(55, 51, 45, 0.30), rgba(232, 228, 221, 0.08)),
