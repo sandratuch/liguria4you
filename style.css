@@ -16,7 +16,7 @@ html {
 
 body {
   margin: 0;
-background: #e8e4dd;
+  background: #e8e4dd;
   color: #73736d;
   font-family: "EB Garamond", serif;
   font-size: 18px;
@@ -29,48 +29,62 @@ a {
 }
 
 .hero {
-  min-height: 760px;
+  min-height: 100vh;
   background:
-    linear-gradient(rgba(60, 57, 50, 0.27), rgba(232, 230, 223, 0.12)),
+    linear-gradient(rgba(55, 51, 45, 0.28), rgba(232, 228, 221, 0.10)),
     url("header.jpg") center / cover no-repeat;
   position: relative;
   color: #f3f0e7;
 }
 
 .nav {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
+
   display: grid;
   grid-template-columns: 1fr auto 1fr;
+
   align-items: center;
-  padding: 30px 52px;
+
+  padding: 38px 52px;
+
+  z-index: 1000;
+
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 10px;
   letter-spacing: 0.18em;
   font-weight: 400;
-background: transparent;
-  z-index: 1000;
+
+  background: transparent;
 }
 
 .nav-left,
 .nav-right {
   display: flex;
-  gap: 42px;
   align-items: center;
+  gap: 42px;
 }
 
 .nav-right {
   justify-content: flex-end;
 }
 
+.nav a {
+  transition: opacity 0.3s ease;
+}
+
+.nav a:hover {
+  opacity: 0.6;
+}
+
 .brand {
   font-family: "Crosela";
-  font-size: 42px;
-  font-weight: 400;
-  letter-spacing: 0;
+  font-size: 44px;
+  text-align: center;
+  color: #f5f1e9;
   text-transform: none;
 }
 
@@ -93,43 +107,134 @@ background: transparent;
   opacity: 1;
 }
 
-.hero-content p {
-  max-width: 760px;
-  margin: 0 auto 56px;
-  font-size: 20px;
-  line-height: 1.6;
-  color: rgba(244, 241, 235, 0.86);
+.hero-content {
+  position: absolute;
+
+  top: 53%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: min(1050px, 88vw);
+
+  text-align: center;
+
+  text-shadow: 0 1px 18px rgba(0, 0, 0, 0.22);
 }
 
-h1 {
-  font-size: 68px;
+.hero h1 {
+  font-size: 82px;
   line-height: 0.96;
   font-weight: 400;
   letter-spacing: -0.03em;
-  margin-bottom: 30px;
+
+  margin-bottom: 34px;
+
   color: #f4f1eb;
 }
 
 .hero p {
-  max-width: 900px;
+  max-width: 820px;
+
   margin: 0 auto 54px;
-  font-size: 21px;
+
+  font-size: 22px;
+  line-height: 1.6;
+
+  color: rgba(244, 241, 235, 0.88);
 }
 
 .button {
-  font-family: Manrope, sans-serif;
+  font-family: "Montserrat", sans-serif;
+
   text-transform: uppercase;
   letter-spacing: 0.14em;
+
   font-size: 11px;
 }
 
 .ghost {
   border: 1px solid rgba(70, 70, 65, 0.55);
+
   border-radius: 8px;
-  padding: 13px 37px;
-  background: rgba(232, 230, 223, 0.2);
-  color: #5f5f5a;
+
+  padding: 15px 40px;
+
+  background: rgba(232, 230, 223, 0.16);
+
+  color: #f4f1eb;
+
   text-shadow: none;
+
+  transition: all 0.35s ease;
+}
+
+.ghost:hover {
+  background: rgba(244, 241, 235, 0.92);
+  color: #6a6660;
+}
+
+@media (max-width: 760px) {
+
+  .hero {
+    min-height: 760px;
+  }
+
+  .nav {
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 22px;
+
+    padding: 26px 24px;
+
+    background: transparent;
+  }
+
+  .nav-left,
+  .nav-right {
+    gap: 18px;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
+
+  .brand {
+    order: -1;
+
+    width: 100%;
+
+    text-align: center;
+
+    font-size: 36px;
+  }
+
+  .hero-content {
+    width: 88vw;
+
+    top: 56%;
+
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+    line-height: 1.02;
+  }
+
+  .hero p {
+    font-size: 18px;
+    line-height: 1.6;
+
+    max-width: 92%;
+  }
+
+}
 }
 .services {
   display: grid;
