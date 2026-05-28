@@ -51,8 +51,7 @@ a {
   font-size: 10px;
   letter-spacing: 0.18em;
   font-weight: 400;
-  backdrop-filter: blur(14px);
-  background: rgba(232, 228, 221, 0.18);
+background: transparent;
   z-index: 1000;
 }
 
