@@ -32,7 +32,7 @@ a {
   margin-top: 0;
   background:
     linear-gradient(rgba(55, 51, 45, 0.30), rgba(232, 228, 221, 0.08)),
-    url("header.jpg") center / cover no-repeat;
+    url("header.jpg") center 42% / cover no-repeat;
   position: relative;
   color: #f3f0e7;
 }
