@@ -127,12 +127,13 @@ h1 {
 }
 
 .ghost {
-  border: 1px solid rgba(70, 70, 65, 0.55);
-  border-radius: 8px;
-  padding: 13px 37px;
-  background: rgba(232, 230, 223, 0.2);
-  color: #5f5f5a;
-  text-shadow: none;
+  border: 1px solid rgba(244, 241, 235, 0.55);
+  border-radius: 10px;
+  padding: 16px 42px;
+  background: rgba(232, 230, 223, 0.10);
+  color: #f4f1eb;
+  transition: all 0.35s ease;
+  backdrop-filter: blur(3px);
 }
 .services {
   display: grid;
