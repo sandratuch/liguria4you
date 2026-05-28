@@ -333,6 +333,7 @@ footer p {
   .hero-content {
     top: 55%;
     width: 88vw;
+text-align: center;
   }
 
   .hero p {
