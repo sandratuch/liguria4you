@@ -93,14 +93,12 @@ background: transparent;
   opacity: 1;
 }
 
-.hero-content {
-  position: absolute;
-  left: 50%;
-  top: 46%;
-  transform: translate(-50%, -50%);
-  width: min(1040px, 86vw);
-  text-align: center;
-  text-shadow: 0 1px 18px rgba(0, 0, 0, 0.22);
+.hero-content p {
+  max-width: 760px;
+  margin: 0 auto 56px;
+  font-size: 20px;
+  line-height: 1.6;
+  color: rgba(244, 241, 235, 0.86);
 }
 
 h1 {
