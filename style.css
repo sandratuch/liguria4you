@@ -318,7 +318,13 @@ footer p {
     flex-wrap: wrap;
     justify-content: center;
   }
+.nav a {
+  transition: opacity 0.3s ease;
+}
 
+.nav a:hover {
+  opacity: 0.55;
+}
   .brand {
     order: -1;
     width: 100%;
