@@ -29,9 +29,10 @@ a {
 }
 
 .hero {
-  min-height: 760px;
+  min-height: 100vh;
+  margin-top: 0;
   background:
-    linear-gradient(rgba(60, 57, 50, 0.27), rgba(232, 230, 223, 0.12)),
+    linear-gradient(rgba(55, 51, 45, 0.30), rgba(232, 228, 221, 0.08)),
     url("header.jpg") center / cover no-repeat;
   position: relative;
   color: #f3f0e7;
@@ -111,9 +112,11 @@ h1 {
 }
 
 .hero p {
-  max-width: 900px;
-  margin: 0 auto 54px;
-  font-size: 21px;
+  max-width: 720px;
+  margin: 0 auto 48px;
+  font-size: 19px;
+  line-height: 1.55;
+  color: rgba(244, 241, 235, 0.88);
 }
 
 .button {
@@ -330,18 +333,32 @@ footer p {
     font-size: 35px;
   }
 
-  .hero-content {
-    top: 55%;
-    width: 88vw;
-  }
+.hero-content {
+  position: absolute;
+  left: 50%;
+  top: 56%;
+  transform: translate(-50%, -50%);
+  width: min(960px, 86vw);
+  text-align: center;
+  text-shadow: 0 1px 18px rgba(0, 0, 0, 0.22);
+}
 
-  .hero p {
-    font-size: 17px;
-  }
+.hero p {
+  max-width: 720px;
+  margin: 0 auto 48px;
+  font-size: 19px;
+  line-height: 1.55;
+  color: rgba(244, 241, 235, 0.88);
+}
 
-  .hero h1 {
-    font-size: 33px;
-  }
+ .hero h1 {
+  font-size: 54px;
+  line-height: 1.04;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin: 0 0 28px;
+  color: #f4f1eb;
+}
 
   .services {
     grid-template-columns: 1fr;
