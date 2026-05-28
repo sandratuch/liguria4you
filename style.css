@@ -168,8 +168,9 @@ h1 {
 
 .services p {
   margin: 0;
-  font-size: 16px;
-  line-height: 1.2;
+  font-size: 17px;
+  line-height: 1.65;
+  color: #7a7772;
 }
 
 .image-band img {
