@@ -16,7 +16,7 @@ html {
 
 body {
   margin: 0;
-  background: #e8e6df;
+background: #e8e4dd;
   color: #73736d;
   font-family: "EB Garamond", serif;
   font-size: 18px;
@@ -211,7 +211,7 @@ address {
 
 .contact {
   padding: 120px 8vw 160px;
-  background: #e8e4dd;
+background: #e8e4dd;
 }
 }
 form {
