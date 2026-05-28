@@ -104,11 +104,12 @@ background: transparent;
 }
 
 h1 {
-  font-size: 46px;
-  line-height: 1.08;
+  font-size: 68px;
+  line-height: 0.96;
   font-weight: 400;
-  letter-spacing: -0.01em;
-  margin: 0 0 14px;
+  letter-spacing: -0.03em;
+  margin-bottom: 30px;
+  color: #f4f1eb;
 }
 
 .hero p {
