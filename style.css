@@ -156,12 +156,12 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.18em;
   font-size: 11px;
-  color: #8f8b85;
+  color: red;
   margin: 0 auto 28px;
   white-space: nowrap;
-
   width: fit-content;
   display: block;
+  border: 1px solid blue;
 }
 
 .services-intro h2 {
