@@ -137,7 +137,7 @@ h1 {
 }
 .services {
   background: #f7f5f1;
-  padding: 90px 8vw 120px;
+  padding: 95px 8vw 115px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 54px;
@@ -146,7 +146,7 @@ h1 {
 
 .services-intro {
   grid-column: 1 / -1;
-  margin-bottom: 36px;
+  margin-bottom: 44px;
 }
 
 .services-intro p {
@@ -154,33 +154,48 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.18em;
   font-size: 11px;
-  color: #b79a5e;
+  color: #8f8b85;
   margin-bottom: 18px;
 }
 
 .services-intro h2 {
   font-size: 34px;
   font-weight: 400;
-  color: #55524d;
+  color: #5f5d58;
+}
+
+.services article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .service-icon {
-  font-size: 48px;
-  color: #b79a5e;
-  margin-bottom: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.service-icon svg {
+  width: 38px;
+  height: 38px;
+  stroke-width: 1.2;
 }
 
 .services h3 {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
-  color: #55524d;
-  margin-bottom: 18px;
+  color: #5f5d58;
+  margin: 0 0 16px;
 }
 
 .services p {
-  font-size: 16px;
+  font-size: 15.5px;
   line-height: 1.55;
   color: #77736d;
+  max-width: 230px;
+  margin: 0 auto;
 }
 
 @media (max-width: 760px) {
