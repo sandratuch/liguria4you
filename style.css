@@ -516,3 +516,14 @@ footer p {
   color: #f5f3ef;
   transform: translateY(-2px);
 }
+.service-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.service-icon svg {
+  width: 54px;
+  height: 54px;
+}
