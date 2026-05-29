@@ -164,9 +164,13 @@ h1 {
 }
 
 .services-intro h2 {
+  font-family: "EB Garamond", serif;
+  font-size: 52px;
+  line-height: 1.05;
+  font-weight: 400;
   text-align: center;
-  margin: 0;
   color: #5f5d58;
+  margin: 0;
 }
 
 .services-intro h2 span {
