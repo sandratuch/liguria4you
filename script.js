@@ -60,3 +60,12 @@ function setLanguage(lang) {
 }
 document.querySelectorAll("[data-lang]").forEach(btn => btn.addEventListener("click", () => setLanguage(btn.dataset.lang)));
 setLanguage(localStorage.getItem("liguria4you-lang") || "de");
+
+const menuToggle = document.querySelector(".menu-toggle");
+const navMenu = document.querySelector(".nav-menu");
+
+if (menuToggle && navMenu) {
+  menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("open");
+  });
+}
