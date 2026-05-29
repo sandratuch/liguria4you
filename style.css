@@ -136,41 +136,58 @@ h1 {
   backdrop-filter: blur(3px);
 }
 .services {
+  background: #f7f5f1;
+  padding: 90px 8vw 120px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 140px 120px;
-  padding: 180px 10vw;
-}
-.services article {
-  display: grid;
-  grid-template-columns: 58px 1fr;
-  gap: 24px;
-  align-items: start;
-}
-.services span {
-  font-family: "Montserrat", sans-serif;
-  font-size: 28px;
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -0.02em;
-  color: #9a9791;
-  display: block;
-  padding-top: 2px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 54px;
+  text-align: center;
 }
 
-.services h2 {
-  font-size: 22px;
-  line-height: 1.15;
+.services-intro {
+  grid-column: 1 / -1;
+  margin-bottom: 36px;
+}
+
+.services-intro p {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 11px;
+  color: #b79a5e;
+  margin-bottom: 18px;
+}
+
+.services-intro h2 {
+  font-size: 34px;
   font-weight: 400;
-  margin-bottom: 22px;
-  color: #6f6c67;
+  color: #55524d;
+}
+
+.service-icon {
+  font-size: 48px;
+  color: #b79a5e;
+  margin-bottom: 26px;
+}
+
+.services h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #55524d;
+  margin-bottom: 18px;
 }
 
 .services p {
-  margin: 0;
-  font-size: 17px;
-  line-height: 1.65;
-  color: #7a7772;
+  font-size: 16px;
+  line-height: 1.55;
+  color: #77736d;
+}
+
+@media (max-width: 760px) {
+  .services {
+    grid-template-columns: 1fr;
+    padding: 80px 32px;
+  }
 }
 
 .image-band img {
