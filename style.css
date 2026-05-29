@@ -146,7 +146,11 @@ h1 {
 
 .services-intro {
   grid-column: 1 / -1;
-  margin-bottom: 44px;
+  text-align: center;
+  justify-self: center;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto 60px;
 }
 
 .services-intro p {
@@ -155,14 +159,15 @@ h1 {
   letter-spacing: 0.18em;
   font-size: 11px;
   color: #8f8b85;
-  margin-bottom: 18px;
+  margin: 0 auto 18px;
   white-space: nowrap;
+  text-align: center;
 }
 
 .services-intro h2 {
-  font-size: 34px;
-  font-weight: 400;
-  color: #5f5d58;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .services article {
