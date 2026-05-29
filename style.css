@@ -156,6 +156,7 @@ h1 {
   font-size: 11px;
   color: #8f8b85;
   margin-bottom: 18px;
+  white-space: nowrap;
 }
 
 .services-intro h2 {
