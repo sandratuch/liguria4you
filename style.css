@@ -146,28 +146,31 @@ h1 {
 
 .services-intro {
   grid-column: 1 / -1;
+  width: 100%;
   text-align: center;
-  justify-self: center;
-  width: fit-content;
-  max-width: 100%;
-  margin: 0 auto 60px;
+  margin: 0 auto 90px;
 }
 
 .services-intro p {
+  display: block;
+  width: 100%;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.18em;
   font-size: 11px;
   color: #8f8b85;
-  margin: 0 auto 18px;
+  margin: 0 0 28px;
   white-space: nowrap;
-  text-align: center;
 }
 
 .services-intro h2 {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 42px;
+  line-height: 1.1;
+  font-weight: 400;
+  color: #5f5d58;
+  margin: 0;
 }
 
 .services article {
