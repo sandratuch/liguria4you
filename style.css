@@ -467,7 +467,7 @@ h1 {
 
 .about-section {
   display: grid;
-  grid-template-columns: 42% 58%;
+  grid-template-columns: 38% 62%;
   background: #e8e4dd;
   min-height: 760px;
   align-items: stretch;
