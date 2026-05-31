@@ -496,7 +496,14 @@ h1 {
   flex-direction: column;
   justify-content: center;
 }
-
+.about-text span {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 11px;
+  color: #9b9892;
+  margin-bottom: 24px;
+}
 .about-text h2 {
   font-size: 48px;
   line-height: 1.08;
