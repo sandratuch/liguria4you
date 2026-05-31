@@ -246,33 +246,31 @@ h1 {
   color: #7e7e78;
 }
 
-.about .intro,
-.about .claim {
-  font-style: italic;
-}
-
-.about .claim {
-  font-size: 19px;
-  margin-top: 78px;
-  margin-bottom: 28px;
-}
-  .about-section {
+.about-section {
   display: grid;
   grid-template-columns: 50% 50%;
   background: #e8e4dd;
   min-height: 760px;
+  align-items: stretch;
+}
+
+.about-image {
+  height: 100%;
 }
 
 .about-image img {
   width: 100%;
   height: 100%;
+  min-height: 760px;
   object-fit: cover;
+  object-position: center;
   display: block;
 }
 
 .about-text {
+  background: #e8e4dd;
   padding: 120px 100px;
-  max-width: 580px;
+  max-width: 620px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -288,23 +286,23 @@ h1 {
 }
 
 .about-text h2 {
-  font-size: 64px;
+  font-size: 56px;
   line-height: 1.08;
   color: #5f5d58;
-  margin-bottom: 40px;
+  margin: 0 0 40px;
 }
 
 .about-text p {
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.8;
   color: #7a7771;
-  margin-bottom: 24px;
+  margin: 0 0 24px;
 }
 
 .signature {
-  margin-top: 40px;
-  font-family: "CroselaTypeface-Regular", serif;
-  font-size: 48px;
+  margin-top: 36px;
+  font-family: "Crosela", "EB Garamond", serif;
+  font-size: 42px;
   color: #6d6a65;
 }
 
