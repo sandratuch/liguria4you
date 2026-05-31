@@ -523,9 +523,10 @@ h1 {
 .signature {
   margin-top: 30px;
   font-family: "Oooh Baby", cursive;
-  font-size: 96px;
-  line-height: 0.9;
+  font-size: 72px;
+  line-height: 1;
   color: #6d6a65;
+  font-weight: 400;
 }
 address {
   font-family: Manrope, sans-serif;
