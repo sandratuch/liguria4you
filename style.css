@@ -1184,3 +1184,31 @@ footer p {
   display: none;
 }
 
+@media (max-width: 760px) {
+  .about-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-image {
+    order: 1;
+  }
+
+  .about-text {
+    order: 2;
+    padding: 70px 32px;
+    max-width: none;
+    width: 100%;
+  }
+
+  .about-image img {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    display: block;
+  }
+
+  .about-text h2 {
+    font-size: 42px;
+  }
+}
