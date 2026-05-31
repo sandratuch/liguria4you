@@ -691,13 +691,7 @@ footer p {
     height: 520px;
   }
 
-  .about {
-    padding-top: 78px;
-  }
 
-  .about p {
-    font-size: 19px;
-  }
 
   form {
     grid-template-columns: 1fr;
