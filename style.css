@@ -516,15 +516,15 @@ h1 {
   line-height: 1.8;
   color: #7a7771;
   margin: 0 0 24px;
+  max-width: 560px;
 }
 
 .signature {
-  margin-top: 36px;
+  margin-top: 50px;
   font-family: "Crosela", "EB Garamond", serif;
-  font-size: 42px;
+  font-size: 54px;
   color: #6d6a65;
 }
-
 address {
   font-family: Manrope, sans-serif;
   font-style: normal;
