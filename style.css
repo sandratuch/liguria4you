@@ -479,8 +479,9 @@ footer p {
 
 .about-section {
   display: grid;
-  grid-template-columns: 48% 52%;
-  background: #f7f5f1;
+  grid-template-columns: 50% 50%;
+  background: #e8e4dd;
+  min-height: 760px;
 }
 
 .about-image img {
