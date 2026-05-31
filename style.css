@@ -521,9 +521,10 @@ h1 {
 }
 
 .signature {
-  margin-top: 50px;
-  font-family: "Crosela", "EB Garamond", serif;
-  font-size: 54px;
+  margin-top: 30px;
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-size: 96px;
+  line-height: 0.9;
   color: #6d6a65;
 }
 address {
