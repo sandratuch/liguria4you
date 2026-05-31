@@ -1351,3 +1351,22 @@ footer p {
 .nav-menu {
   display: none;
 }
+.about-text h2 {
+  font-size: 44px !important;
+  line-height: 1.08 !important;
+  max-width: 720px !important;
+}
+
+.about-text {
+  max-width: 820px !important;
+}
+
+.about-text p {
+  max-width: 620px !important;
+}
+
+.signature {
+  margin-top: 50px !important;
+  font-family: "Crosela", "EB Garamond", serif !important;
+  font-size: 54px !important;
+}
