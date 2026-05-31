@@ -467,7 +467,7 @@ h1 {
 
 .about-section {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 42% 58%;
   background: #e8e4dd;
   min-height: 760px;
   align-items: stretch;
@@ -495,13 +495,13 @@ h1 {
   justify-content: center;
 }
 
-.about-text span {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.18em;
-  font-size: 11px;
-  color: #9b9892;
-  margin-bottom: 24px;
+.about-text {
+  background: #e8e4dd;
+  padding: 120px 80px;
+  max-width: 820px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-text h2 {
