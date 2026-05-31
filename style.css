@@ -489,7 +489,7 @@ h1 {
 .about-text {
   background: #e8e4dd;
   padding: 120px 100px;
-  max-width: 620px;
+  max-width: 720px;
   display: flex;
   flex-direction: column;
   justify-content: center;
