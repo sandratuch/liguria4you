@@ -22,7 +22,9 @@ background: #e8e4dd;
   font-size: 18px;
   line-height: 1.45;
 }
-
+.about-text h2 {
+  color: red !important;
+}
 a {
   color: inherit;
   text-decoration: none;
