@@ -583,54 +583,5 @@ footer p {
 }
 
 .nav-menu {
-  display: contents;
-}
-
-@media (max-width: 760px) {
-  .nav {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 26px 24px;
-  }
-
-  .menu-toggle {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-    padding: 8px;
-    z-index: 1001;
-  }
-
-  .menu-toggle span {
-    width: 28px;
-    height: 1px;
-    background: #f4f1eb;
-    display: block;
-  }
-
-  .nav-menu {
-    display: none;
-    position: absolute;
-    top: 82px;
-    right: 24px;
-    background: rgba(232, 228, 221, 0.96);
-    padding: 28px 34px;
-    flex-direction: column;
-    gap: 22px;
-    text-align: right;
-  }
-
-  .nav-menu.open {
-    display: flex;
-  }
-
-  .nav-menu a,
-  .nav-menu .language-switch {
-    color: #6d6a65;
-  }
+  display: none;
 }
